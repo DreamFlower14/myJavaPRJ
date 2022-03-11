@@ -1,6 +1,6 @@
 public class Hello {
     public static void main(String[] args){
-        System.out.println("BYE!! My First Java Coding!! ");
+        System.out.println("BYE!! My last Java Coding!! ");
 
     }
 }
