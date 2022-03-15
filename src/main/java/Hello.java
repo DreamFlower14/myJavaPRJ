@@ -68,6 +68,8 @@ public class Hello {
         System.out.println(a + " + " + b + " = " + (a + b));
         System.out.println((c++) + " + " + --d + " = " + (c++ + d) );
         System.out.println( c );
+        System.out.println( e );
+        System.out.println( d );
 
 
 
