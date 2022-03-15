@@ -35,7 +35,7 @@ public class Hello {
         sc.nextInt();
         sc.
         System.out.println();
-        */
+
         int b;
         int c = 1;
         for(b = 9 ;b < 82 ; b += 9) {
@@ -56,9 +56,23 @@ public class Hello {
         int s = 100;
 
         while(s > 0) {
-            s--;
-            System.out.println(s);
-        }
+            --s;
+            System.out.println(s);} */
+
+        int a = 1;
+        int b = 2;
+        int c = a + b; // c = 3
+        float d = c * a;  // d = 3
+        float e = d++;   // e = 4
+
+        System.out.println(a + " + " + b + " = " + (a + b));
+        System.out.println((c++) + " + " + --d + " = " + (c++ + d) );
+        System.out.println( c );
+
+
+
+
+
     }
 }
 // 자바 파일명은 무조건 영문 대문자로 시작해야 함, 대소문자 구별함
