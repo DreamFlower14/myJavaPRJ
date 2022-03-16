@@ -1,11 +1,11 @@
 public class Hello {
     public static void main(String[] args){
-        System.out.println("BYE!! My last Java Coding!! ");
+        /* System.out.println("BYE!! My last Java Coding!! ");
         System.out.print("it was good\n");
         int num = 2;
         System.out.printf("i want %d apples\n", num);
 
-        /*
+
         int b = 2;
         int c = a + b;
         int d = c - a;
