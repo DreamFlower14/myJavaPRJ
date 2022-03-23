@@ -51,7 +51,7 @@ public class Exam01 {
         d = c;
 
         System.out.printf("a,b의 값 ==> %d , %d \n", a,b);
-        System.out.printf("c,d의 값 ==> %5.1f , %5.1f \n", c,d); */
+        System.out.printf("c,d의 값 ==> %5.1f , %5.1f \n", c,d);
 
         int a ,b ,c ,d;
 
@@ -68,8 +68,14 @@ public class Exam01 {
         a = a + 200;
         System.out.printf("a 의 값 ==> %d \n", a);
 
+        Scanner in = new Scanner(System.in);
+        System.out.print("이름 입력 : ");
+        String name = in.nextLine();
+        System.out.println("입력한 값 출력 : " + name); */
 
+
+        }
 
     }
 
-}
+
