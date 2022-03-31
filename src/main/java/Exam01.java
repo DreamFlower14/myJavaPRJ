@@ -1,6 +1,6 @@
 public class Exam01 {
     public static void main(String[] args) {
-        /* System.out.println("김성현");
+         System.out.println("김성현");
         System.out.println("자바 1~9강까지,11,12강까지 준비");
         System.out.println("왼쪽 ctrl + spacebar 하면 단축키 가능하다.");
         System.out.println("단축키의 종류에는 psvm과 sout이 있다.");
@@ -41,7 +41,7 @@ public class Exam01 {
         System.out.printf("a의 값 ==> %d \n", a); 
         System.out.printf("b의 값 ==> %f \n", b);
 
-        int a, b;
+        /* int a, b;
         float c, d;
 
         a = 100;
