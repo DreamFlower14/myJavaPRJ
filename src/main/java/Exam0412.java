@@ -10,7 +10,7 @@ public class Exam0412 {
         for (int i = 1; i <= (num*2)-1 ; i++ ){ // 5 -> 9
             for(int j = 1; j <= inc; j++){
                 if(j < dec){
-                    System.out.print(" ");
+                    System.out.print(j);
                 }else{
                     System.out.print("*");
                 }
