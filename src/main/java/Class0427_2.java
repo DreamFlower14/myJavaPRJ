@@ -22,6 +22,7 @@ public class Class0427_2 {
 
         for(int i = 0; i < 4; i++){
             System.out.println("aa[" + i + "] = " +aa[i] );
+            System.out.printf("aa[%d] = %d\n", i, aa[i]);
         }
     }
 

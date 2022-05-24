@@ -10,10 +10,10 @@ public class Class0427_5 {
         list.add("임꺽정");
         list.add("고길동");
 
-        int listsize = list.size();
+        int psize = list.size();
 
-        for(int i = 0; i < listsize; i++){
-            System.out.println("이름 : " + list.get(i));
+        for(int i = 0; i < psize; i++){
+            System.out.println("plist["+ i + "] = " + list.get(i));
         }
     }
 }
