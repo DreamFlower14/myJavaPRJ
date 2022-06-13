@@ -9,11 +9,14 @@ public class C0525 {
 //            System.out.print(log.charAt(i));
 //        }
 
-        int a,b;
-        a = log.indexOf("[");
-        b = log.lastIndexOf("]");
-        for ( int i = a +1; i < b; i++ ){
-            System.out.print(log.charAt(i));
-        }
+//        int a,b;
+//        a = log.indexOf("[");
+//        b = log.lastIndexOf("]");
+//        for ( int i = a +1; i < b; i++ ){
+//            System.out.print(log.charAt(i));
+//        }
+        int a = log.indexOf("[");
+//        String str = log.substring(a+1,log.split(" "));
+//        System.out.print(str);
     }
 }
