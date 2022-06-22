@@ -26,7 +26,7 @@ public class C0511_3 {
 
         list.add(map);
 
-        map = null;
+
 
 //        int listsize = list.size();
 
@@ -48,6 +48,12 @@ public class C0511_3 {
             System.out.println();
             }
         );
-
+        for(Map<String,String> rmap : list){
+            System.out.println(rmap.get("name"));
+        }
+        list.forEach(rmap -> {
+            System.out.println(rmap.get("name"));
+            System.out.println(rmap.get("email"));
+        });
     }
 }

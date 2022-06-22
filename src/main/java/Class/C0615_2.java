@@ -10,9 +10,14 @@ class Car1 {
     }
 
     void downSpeed(int value) {
-        speed -= value;
-        System.out.println("속도를 "+ speed +"내립니다");
-    }
+        if ((speed -= value) > 0) {
+            speed -= value;
+            System.out.println("속도를 "+ speed +"내립니다");
+        }else {
+            System.out.print("속도를 0 이하로 내릴 수 없습니다!");
+        }
+
+        }
 }
 
 class Sedan extends Car1{
