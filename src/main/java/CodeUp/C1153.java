@@ -1,18 +1,19 @@
+package CodeUp;
+
 import java.util.Scanner;
 
-public class Main {
+public class C1153 {
     public static void main(String[] args) {
-
         Scanner s = new Scanner(System.in);
         int a = s.nextInt();
         int b = s.nextInt();
 
         if (a > b) {
-            System.out.printf("%d",a - b);
-        } else if (a == b) {
-            System.out.printf("%d",a - b);
-        } else if (a < b) {
-            System.out.printf("%d",b - a);
+            System.out.println(">");
+        }else if ( a == b){
+            System.out.println("=");
+        }else if ( a < b ) {
+            System.out.println("<");
         }
     }
 }
